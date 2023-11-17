@@ -68,6 +68,7 @@ SWAGGER_SETTINGS = {
 }
 ACCOUNT_ADAPTER = 'myproject.account.adapter.DefaultAccountAdapter'
 ACCOUNT_ALLOW_SIGNUPS = False
+is_open_for_signup = 'False'
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         # 'rest_framework.authentication.BasicAuthentication',
